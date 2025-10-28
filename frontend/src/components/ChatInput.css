@@ -1,5 +1,5 @@
  .send-button {
-        background-color: #4CAF50; /* Green */
+        background-color: #4CAF50; 
         border: none;
         color: white;
         padding: 12px 20px;      
@@ -21,7 +21,7 @@
       .chat-input-container {
         display: flex;
         align-items: center;
-        margin-top: auto;     /* sticks input bar to bottom */
+        margin-top: auto;     
         
       }
       

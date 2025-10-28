@@ -18,10 +18,10 @@ app.post("/chat", async (req, res) => {
   try {
     const { messages } = req.body;
 
-    // 🧠 keep only last 10 messages for short-term memory
+    
     const shortHistory = messages.slice(-10);
 
-    // format messages for Gemini
+   
     const formattedMessages = shortHistory.map((msg) => ({
       role: msg.sender === "user" ? "user" : "model",
       parts: [{ text: msg.message }],
@@ -42,7 +42,7 @@ app.post("/chat", async (req, res) => {
 
     const data = JSON.parse(text);
     const botReply =
-      data.candidates?.[0]?.content?.parts?.[0]?.text || "No response 😅";
+      data.candidates?.[0]?.content?.parts?.[0]?.text || "No response ";
 
     res.json({ reply: botReply });
   } catch (err) {
@@ -51,4 +51,4 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-app.listen(5000, () => console.log("🔥 Server running on port 5000"));
+app.listen(5000, () => console.log(" Server running on port 5000"));
