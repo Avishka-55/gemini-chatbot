@@ -53,6 +53,6 @@ npm run dev
 
 💬 Smooth and responsive React UI
 
-❤️ Credits
+
 
 Built with 💙 by Avishka
