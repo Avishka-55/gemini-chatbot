@@ -1,7 +1,7 @@
 🤖 Gemini Chatbot
 
 A smart AI chatbot built with React (frontend) + Express (backend) + Google Gemini API.
-Chat with Gemini like a boss 😎💬
+
 
 🧠 Tech Stack
 Area	Technology
@@ -38,7 +38,11 @@ npm start
 3️⃣ Setup the Frontend
 ```
 cd ../frontend
+```
+```
 npm install
+```
+```
 npm run dev
 ```
 
