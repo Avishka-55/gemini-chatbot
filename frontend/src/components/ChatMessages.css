@@ -1,0 +1,8 @@
+  .chat-messages-container {
+        flex-grow: 1;         /* takes all remaining space */
+        overflow-y: auto;     /* scrolls when messages overflow */
+        padding-bottom: 10px; /* small gap above input */
+        margin-top: 20px ;
+        scrollbar-width: thin; /* for Firefox */
+        scrollbar-color: #888 #f1f1f1; /* for Firefox */
+        }

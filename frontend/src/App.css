@@ -1,0 +1,17 @@
+
+      
+       
+
+     
+      .app-container {
+        width: 600px;
+        margin: auto;
+        height: 100vh;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box; /* avoids padding pushing stuff */
+}
+
+      
