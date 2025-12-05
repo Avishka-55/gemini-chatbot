@@ -2,6 +2,12 @@
 
 A smart AI chatbot built with React (frontend) + Express (backend) + Google Gemini API.
 
+## Live Demo
+🚀 Check out the YouTube Clone I deployed on Netlify: [https://youview-private.netlify.app/](https://gemini-chatbot-private.netlify.app/)
+
+
+---
+
 
 🧠 Tech Stack
 Area	Technology
